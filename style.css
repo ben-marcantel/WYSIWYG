@@ -1,0 +1,18 @@
+body {
+background-color: rgb(0, 136, 136);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.peepsCont {
+    display: flex;
+    flex-wrap: wrap;
+}
+.peeps:nth-child(2n){
+    background-color: yellow;
+} 
+.peeps {
+    background-color: aqua;
+    border: .5rem solid rgb(12, 78, 78);
+    padding: .5rem;
+    margin: .25rem;
+    display: inline;
+}
